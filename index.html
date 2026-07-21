@@ -12,7 +12,7 @@
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
 <link rel="apple-touch-icon" href="icons/icon-192.png" />
 
-<title>원문 V4.0 표준 계산기 · 22/22/Q1/3 · Claude 리버스</title>
+<title>SOXL V4 방어형 계산기 · 리버스 버킷 · 22/22/Q1/3</title>
 <style>
 :root{--bg:#f7f4fb;--card:#fff;--card2:#fbf9ff;--line:#e6def4;--text:#232033;--muted:#756f88;--purple:#765ff0;--green:#2f9b70;--red:#d45b5b;--amber:#c9872f;--blue:#3f7ee8;--shadow:0 14px 34px rgba(62,43,105,.08);--radius:22px;font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Pretendard','Malgun Gothic',sans-serif}
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#fbf9ff,#f4effb);color:var(--text);font-size:15px;line-height:1.45}header{position:sticky;top:0;z-index:10;background:rgba(251,249,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(118,95,240,.13)}.head,.wrap{max-width:1080px;margin:0 auto}.head{padding:18px 14px}.wrap{padding:14px 12px 44px}.title{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.title h1{margin:0;font-size:25px;letter-spacing:-.03em;line-height:1.15}.subtitle{margin-top:7px;color:#625b78;font-weight:800}.badge{display:inline-flex;white-space:nowrap;background:#3f3320;color:#f5cd73;border-radius:999px;padding:10px 13px;font-weight:900;font-size:13px}.nav{display:flex;gap:9px;overflow:auto;padding:10px 0 2px}.nav a{color:#4e4862;text-decoration:none;background:#f1ebfb;border:1px solid #e2d8fb;border-radius:16px;padding:10px 13px;font-weight:900;white-space:nowrap}.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:17px;margin-bottom:15px}.card h2{font-size:18px;margin:0 0 13px;font-weight:900;display:flex;justify-content:space-between;gap:8px}.sub{font-size:12px;color:var(--muted);font-weight:800}.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.metric,.stat{background:var(--card2);border:1px solid var(--line);border-radius:17px;padding:13px}.metric .lab,.stat .lab{font-size:12px;color:#736d86;font-weight:900;margin-bottom:6px}.metric .val{font-size:20px;font-weight:900;letter-spacing:-.02em}.stat .val{font-size:15px;font-weight:900}.bigT{font-size:70px;line-height:.9;font-weight:900;letter-spacing:-.06em}.hero{display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:stretch}.progress{height:13px;background:#eae4f4;border-radius:999px;overflow:hidden;margin-top:14px}.progress span{display:block;height:100%;background:linear-gradient(90deg,#6aa6ff,#7a63f1,#efc55d);width:0}.phase{display:inline-flex;border:1px solid #d7ccff;background:#f2edff;color:#5c49d1;border-radius:999px;padding:9px 13px;font-weight:900}label{display:block;font-size:12px;color:#6b647e;font-weight:900;margin:8px 0 6px}input,select{width:100%;border:1.5px solid #ddd5ef;background:#fff;border-radius:14px;padding:12px;font-size:14px;outline:none}input:focus,select:focus{border-color:#b6a2ff;box-shadow:0 0 0 4px rgba(118,95,240,.08)}button{border:0;border-radius:14px;background:var(--purple);color:#fff;font-weight:900;padding:12px 14px;cursor:pointer;font-size:14px;box-shadow:0 9px 18px rgba(118,95,240,.18)}button.secondary{background:#fff;color:#5d566d;border:1.5px solid #ddd5ef;box-shadow:none}button.danger{background:#fff0f0;color:var(--red);border:1.5px solid #f1c1c1;box-shadow:none}.row{display:flex;gap:9px}.row>*{flex:1}.small{font-size:12px;color:var(--muted);font-weight:700}.note{font-size:12.5px;color:#6d6680;background:#fbf9ff;border:1px dashed #ded2fb;border-radius:15px;padding:12px;line-height:1.65}.orders{display:flex;flex-direction:column;gap:10px}.order{border-radius:18px;padding:14px 15px;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;border:1px solid var(--line);background:#fbfaff}.order.buy{background:#eaf7f1;border-color:#c9ead8}.order.sell{background:#fff5e8;border-color:#f1d9b1}.order.stop{background:#fff0f0;border-color:#f0c4c4}.order.info{background:#edf4ff;border-color:#ccdcff}.order .name{font-size:17px;font-weight:900}.order .desc{font-size:12.5px;color:#6b657d;margin-top:5px;line-height:1.55}.order .px{text-align:right;font-size:18px;font-weight:900;white-space:nowrap}.order .px small{display:block;font-size:12px;color:#7a748b;margin-top:4px}.pill{display:inline-block;padding:3px 8px;border-radius:999px;font-size:10.5px;font-weight:900;margin-left:6px}.pill.buy{background:#dff4e8;color:var(--green)}.pill.sell{background:#fff1d8;color:var(--amber)}.pill.stop{background:#ffe3e3;color:var(--red)}.pill.info{background:#e8f0ff;color:var(--blue)}.green{color:var(--green)}.red{color:var(--red)}.amber{color:var(--amber)}.blue{color:var(--blue)}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.hist{max-height:460px;overflow:auto}.histrow{display:grid;grid-template-columns:94px 1fr 170px;gap:10px;border-bottom:1px solid #eee7f7;padding:12px 0;font-size:12.8px}.histrow:last-child{border-bottom:0}.right{text-align:right}.settings summary{cursor:pointer;font-weight:900;list-style:none;display:flex;justify-content:space-between}.settings summary::-webkit-details-marker{display:none}.settings summary:after{content:'열기';font-size:11px;color:#fff;background:var(--purple);border-radius:999px;padding:5px 10px}.settings[open] summary:after{content:'접기'}.settings-inner{padding-top:12px}.table{width:100%;border-collapse:collapse;font-size:12.5px}.table th,.table td{border-bottom:1px solid #eee7f7;padding:9px 7px;text-align:left}.table th{color:#6f6883;font-weight:900;background:#fbf9ff}.qtyedit{margin-top:8px;display:flex;gap:8px;align-items:center;justify-content:flex-end}.qtyedit label{margin:0;font-size:11px;white-space:nowrap}.qtyedit input{max-width:118px;padding:8px 9px;border-radius:11px;text-align:right}.histedit{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:7px}.histedit input{padding:8px;border-radius:11px;font-size:12px}.histedit label{margin:0;font-size:11px}.histbtns{display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap}.histbtns button{padding:7px 10px;font-size:12px;margin-top:4px}.hidden{display:none!important}@media(max-width:900px){.grid,.hero{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,1fr)}.title h1{font-size:22px}.bigT{font-size:58px}.histrow{grid-template-columns:78px 1fr}.right{grid-column:1/3;text-align:left}}@media(max-width:560px){.wrap{padding:10px 9px 32px}.head{padding:14px 10px}.card{padding:14px}.metrics{grid-template-columns:1fr 1fr}.row{flex-direction:column}.badge{font-size:12px;padding:8px 10px}.order{grid-template-columns:1fr}.order .px{text-align:left}.bigT{font-size:52px}}
@@ -183,7 +183,7 @@ body{font-size:13px;background:#f5f1fb;padding-bottom:86px}
 </style>
 </head>
 <body>
-<header><div class="head"><div class="title"><div><h1>원문 V4.0 표준 계산기</h1><div class="subtitle">22% 별지점 · 22% 전량목표 · 쿼터 1/3 · Claude 리버스 · 오리지널 전용</div></div><span class="badge">P2R/M3 제외</span></div></div></header>
+<header><div class="head"><div class="title"><div><h1>SOXL V4 방어형 계산기</h1><div class="subtitle">22% 별지점 · 22% 전량목표 · 쿼터 1/3 · 급락 익일 0.25T · MA200 85% 기준 25/5 리버스 버킷</div></div><span class="badge">DEFENSIVE BUCKET</span></div></div></header>
 <div class="wrap">
 <nav class="nav"><a href="#overview" data-tab="overview">현재</a><a href="#orders" data-tab="orders">주문표</a><a href="#record" id="navRecord">오늘 기록</a><a href="#history" data-tab="history">기록</a><a href="#rules" data-tab="rules">표준 로직</a><a href="#settings" id="navSettings">설정</a></nav>
 
@@ -220,7 +220,7 @@ body{font-size:13px;background:#f5f1fb;padding-bottom:86px}
       <div><label>날짜</label><input id="m_date" type="date"></div>
       <div><label>종가</label><input id="m_close" type="number" step="0.01" placeholder="예: 300.77"></div>
       <div><label>체결가</label><input id="m_tradePrice" type="number" step="0.01" placeholder="비우면 종가"></div>
-      <div><label>수량</label><input id="m_tradeQty" type="number" step="1" min="0" placeholder="예: 4"></div>
+      <div><label>수량</label><input id="m_tradeQty" type="number" step="1" min="0" placeholder="비우면 자동 계산 · 입력값 우선"></div>
     </div>
     <input id="m_manualAction" type="hidden" value="AUTO">
     <div class="tPreview"><span>T값 자동 계산</span><span id="autoTPreview">—</span></div>
@@ -1153,9 +1153,11 @@ function simpleBuyExtraRows(x){
 
 
 
-<!-- AUTO CLOSE FETCH PATCH 2026-06-28
-     Stooq daily quote CSV를 우선 사용하고, 브라우저 CORS 차단 시 AllOrigins proxy로 재시도한다.
-     주의: 장중에는 '확정 종가'가 아니라 최신 일중 가격일 수 있으므로, LOC 기준 기록은 미국장 마감 후 사용 권장. -->
+<!-- AUTO CLOSE FETCH V2 2026-07-20
+     브라우저가 외부 시세 서버를 직접 호출하지 않고, GitHub Actions가 갱신한
+     같은 저장소의 data/latest-close.json을 우선 조회한다.
+     동일 출처 파일이므로 GitHub Pages에서 CORS 오류 없이 사용할 수 있다.
+     JSON이 아직 준비되지 않았을 때만 외부 공급자를 보조적으로 시도한다. -->
 <style>
 .autoCloseBox{display:grid;grid-template-columns:1fr;gap:8px;margin-top:8px}
 .autoCloseBox button{box-shadow:none;border-radius:12px;padding:10px 11px;font-size:13px}
@@ -1170,65 +1172,83 @@ function simpleBuyExtraRows(x){
       return String(t || 'SOXL').trim().toUpperCase();
     }catch(e){ return 'SOXL'; }
   }
-  function parseCsvLine(line){
-    var out=[], cur='', q=false;
-    for(var i=0;i<line.length;i++){
-      var ch=line[i];
-      if(ch==='"') q=!q;
-      else if(ch===',' && !q){ out.push(cur); cur=''; }
-      else cur+=ch;
-    }
-    out.push(cur);
-    return out.map(function(x){return x.replace(/^"|"$/g,'').trim();});
+  function withTimeout(ms){
+    var ctrl=new AbortController();
+    var timer=setTimeout(function(){ctrl.abort();},ms||10000);
+    return {signal:ctrl.signal, clear:function(){clearTimeout(timer);}};
   }
-  function parseQuoteCsv(txt){
-    var lines=String(txt||'').trim().split(/\r?\n/).filter(Boolean);
-    if(lines.length < 2) throw new Error('CSV 응답이 비어 있습니다.');
-    var header=parseCsvLine(lines[0]).map(function(x){return x.toLowerCase();});
-    var row=parseCsvLine(lines[1]);
-    var obj={};
-    header.forEach(function(h,i){obj[h]=row[i];});
-    var close = Number(obj.close);
-    if(!Number.isFinite(close) || close<=0) throw new Error('종가 값을 읽지 못했습니다.');
-    return {date: obj.date, close: close, source:'Stooq'};
-  }
-  async function fetchTextWithTimeout(url, ms){
-    var ctrl = new AbortController();
-    var timer = setTimeout(function(){ctrl.abort();}, ms || 9000);
+  async function fetchJson(url,ms){
+    var t=withTimeout(ms);
     try{
-      var res = await fetch(url, {cache:'no-store', signal:ctrl.signal});
+      var res=await fetch(url,{cache:'no-store',signal:t.signal,headers:{'Accept':'application/json'}});
       if(!res.ok) throw new Error('HTTP '+res.status);
-      return await res.text();
-    }finally{ clearTimeout(timer); }
+      return await res.json();
+    }finally{t.clear();}
+  }
+  function normalizeStoredQuote(data,ticker){
+    var close=Number(data && data.close);
+    var date=data && data.date ? String(data.date) : '';
+    var fileTicker=String(data && data.ticker || '').toUpperCase();
+    if(fileTicker && fileTicker!==ticker) throw new Error('저장 종목 불일치: '+fileTicker);
+    if(!date || !Number.isFinite(close) || close<=0) throw new Error('저장 종가 파일이 아직 준비되지 않았습니다.');
+    return {
+      ticker:ticker,
+      date:date,
+      close:close,
+      source:String(data.source||'GitHub Actions'),
+      updatedAt:data.updated_at||'',
+      via:'same-origin'
+    };
+  }
+  async function fetchSameOriginClose(ticker){
+    var base=new URL('./data/latest-close.json',document.baseURI);
+    base.searchParams.set('_',String(Date.now()));
+    var data=await fetchJson(base.toString(),8000);
+    return normalizeStoredQuote(data,ticker);
+  }
+  function normalizeYahoo(data,ticker){
+    var result=data && data.chart && data.chart.result && data.chart.result[0];
+    if(!result) throw new Error('Yahoo 응답에 가격 데이터가 없습니다.');
+    var ts=result.timestamp||[];
+    var closeArr=result.indicators && result.indicators.quote && result.indicators.quote[0] && result.indicators.quote[0].close || [];
+    for(var i=Math.min(ts.length,closeArr.length)-1;i>=0;i--){
+      var c=Number(closeArr[i]);
+      if(Number.isFinite(c)&&c>0){
+        var d=new Date(Number(ts[i])*1000);
+        return {ticker:ticker,date:d.toISOString().slice(0,10),close:c,source:'Yahoo Finance',updatedAt:'',via:'fallback'};
+      }
+    }
+    throw new Error('Yahoo 종가를 읽지 못했습니다.');
+  }
+  async function fetchYahooFallback(ticker){
+    var raw='https://query1.finance.yahoo.com/v8/finance/chart/'+encodeURIComponent(ticker)+'?range=10d&interval=1d&includePrePost=false&events=div%2Csplits';
+    var urls=[raw,'https://api.allorigins.win/raw?url='+encodeURIComponent(raw)];
+    var last=null;
+    for(var i=0;i<urls.length;i++){
+      try{return normalizeYahoo(await fetchJson(urls[i],10000),ticker);}catch(e){last=e;}
+    }
+    throw last||new Error('Yahoo 조회 실패');
   }
   async function fetchLatestClose(){
-    var ticker=getTicker();
-    var sym=ticker.toLowerCase();
-    if(!sym.endsWith('.us')) sym += '.us';
-    var raw='https://stooq.com/q/l/?s='+encodeURIComponent(sym)+'&i=d';
-    var urls=[raw, 'https://api.allorigins.win/raw?url='+encodeURIComponent(raw)];
-    var lastErr=null;
-    for(var i=0;i<urls.length;i++){
-      try{
-        var txt=await fetchTextWithTimeout(urls[i], 10000);
-        var q=parseQuoteCsv(txt);
-        q.ticker=ticker;
-        q.via=i===0?'direct':'proxy';
-        return q;
-      }catch(e){ lastErr=e; }
-    }
-    throw lastErr || new Error('가격 조회 실패');
+    var ticker=getTicker(), errors=[];
+    try{return await fetchSameOriginClose(ticker);}catch(e){errors.push('저장소: '+e.message);}
+    try{return await fetchYahooFallback(ticker);}catch(e){errors.push('보조조회: '+e.message);}
+    throw new Error(errors.join(' / '));
   }
-  function setStatus(msg, isErr){
+  function setStatus(msg,isErr){
     ['autoCloseStatus','mainAutoCloseStatus'].forEach(function(id){
-      var el=byId(id); if(el){ el.textContent=msg||''; el.style.color=isErr?'#d45b5b':'#756f88'; }
+      var el=byId(id); if(el){el.textContent=msg||'';el.style.color=isErr?'#d45b5b':'#756f88';}
     });
   }
+  function sourceLabel(q){
+    if(q.via==='same-origin') return '저장소 동기화';
+    return q.source||'보조 조회';
+  }
   async function fillClose(target){
-    var btn=target;
+    var btn=target, oldText=btn?btn.textContent:'';
     try{
-      if(btn){ btn.disabled=true; btn.textContent='불러오는 중...'; }
-      setStatus('최신 일봉 데이터를 조회 중입니다.', false);
+      if(btn){btn.disabled=true;btn.textContent='불러오는 중...';}
+      setStatus('저장소의 최신 확정 종가를 조회 중입니다.',false);
       var q=await fetchLatestClose();
       if(byId('m_close')) byId('m_close').value=q.close.toFixed(2);
       if(byId('close')) byId('close').value=q.close.toFixed(2);
@@ -1236,44 +1256,49 @@ function simpleBuyExtraRows(x){
         if(byId('m_date')) byId('m_date').value=q.date;
         if(byId('date')) byId('date').value=q.date;
       }
-      try{ if(typeof autoSelectFromClose==='function') autoSelectFromClose(true); }catch(e){}
-      try{ if(typeof fillModalChoices==='function') fillModalChoices(); }catch(e){}
-      try{ if(typeof updateSelectedAction==='function') updateSelectedAction(); }catch(e){}
-      try{ if(typeof estimateTForInput==='function') estimateTForInput(); }catch(e){}
-      setStatus(q.ticker+' '+q.date+' 종가 '+q.close.toFixed(2)+' 불러옴' + (q.via==='proxy'?' · proxy':'') + ' · 장중에는 확정 종가가 아닐 수 있음', false);
+      try{if(typeof autoSelectFromClose==='function')autoSelectFromClose(true);}catch(e){}
+      try{if(typeof fillModalChoices==='function')fillModalChoices();}catch(e){}
+      try{if(typeof updateSelectedAction==='function')updateSelectedAction();}catch(e){}
+      try{if(typeof estimateTForInput==='function')estimateTForInput();}catch(e){}
+      var updated=q.updatedAt?(' · 동기화 '+String(q.updatedAt).replace('T',' ').replace('Z',' UTC')):'';
+      setStatus(q.ticker+' '+q.date+' 종가 '+q.close.toFixed(2)+' 불러옴 · '+sourceLabel(q)+updated,false);
     }catch(e){
-      console.error(e);
-      setStatus('자동 조회 실패: 브라우저/CORS 또는 데이터 제공처 문제일 수 있습니다. 수동 입력을 사용하세요.', true);
-      alert('종가 자동 조회에 실패했습니다.\n\n가능 원인: 인터넷 연결, CORS 차단, 데이터 제공처 응답 오류.\n수동으로 종가를 입력하면 기존 기능은 그대로 사용할 수 있습니다.');
+      console.error('latest close fetch failed',e);
+      setStatus('자동 조회 실패: Actions의 Update latest close를 한 번 실행하거나 수동 입력을 사용하세요.',true);
+      alert('종가 자동 조회에 실패했습니다.\n\nGitHub 저장소의 Actions 탭에서 “Update latest close”를 한 번 실행한 뒤 다시 시도하세요.\n\n상세: '+(e&&e.message?e.message:'알 수 없는 오류'));
     }finally{
-      if(btn){ btn.disabled=false; btn.textContent='종가 자동 불러오기'; }
+      if(btn){btn.disabled=false;btn.textContent=oldText||'종가 자동 불러오기';}
+    }
+  }
+  function bindButton(id){
+    var btn=byId(id);
+    if(btn&&!btn.dataset.closeFetchV2){
+      btn.dataset.closeFetchV2='1';
+      btn.onclick=function(){fillClose(this);};
     }
   }
   function addAutoCloseButtons(){
-    if(byId('autoCloseBtn')) return;
     var mClose=byId('m_close');
-    if(mClose && mClose.parentElement){
+    if(mClose&&mClose.parentElement&&!byId('autoCloseBtn')){
       var box=document.createElement('div');
       box.className='autoCloseBox';
-      box.innerHTML='<button class="secondary" id="autoCloseBtn" type="button">종가 자동 불러오기</button><div class="autoCloseStatus" id="autoCloseStatus">SOXL 최신 일봉 종가를 불러옵니다.</div>';
+      box.innerHTML='<button class="secondary" id="autoCloseBtn" type="button">종가 자동 불러오기</button><div class="autoCloseStatus" id="autoCloseStatus">GitHub Actions가 저장한 SOXL 최신 종가를 불러옵니다.</div>';
       mClose.parentElement.appendChild(box);
-      byId('autoCloseBtn').onclick=function(){ fillClose(this); };
     }
     var close=byId('close');
-    if(close && close.parentElement && !byId('mainAutoCloseBtn')){
+    if(close&&close.parentElement&&!byId('mainAutoCloseBtn')){
       var box2=document.createElement('div');
       box2.className='autoCloseBox';
       box2.innerHTML='<button class="secondary" id="mainAutoCloseBtn" type="button">종가 자동 불러오기</button><div class="autoCloseStatus" id="mainAutoCloseStatus"></div>';
       close.parentElement.appendChild(box2);
-      byId('mainAutoCloseBtn').onclick=function(){ fillClose(this); };
     }
+    bindButton('autoCloseBtn');
+    bindButton('mainAutoCloseBtn');
   }
-  document.addEventListener('DOMContentLoaded', addAutoCloseButtons);
+  document.addEventListener('DOMContentLoaded',addAutoCloseButtons);
   addAutoCloseButtons();
-  var oldOpen = window.openSheet;
-  if(typeof oldOpen === 'function'){
-    window.openSheet = function(){ oldOpen.apply(this, arguments); setTimeout(addAutoCloseButtons, 20); };
-  }
+  var observer=new MutationObserver(addAutoCloseButtons);
+  observer.observe(document.documentElement,{childList:true,subtree:true});
 })();
 </script>
 
@@ -1411,6 +1436,17 @@ function simpleBuyExtraRows(x){
     window.addEventListener('load', function(){
       navigator.serviceWorker.register('./sw.js').catch(function(err){ console.log('service worker registration failed', err); });
     });
+  }
+})();
+</script>
+
+<script src="./v40_defensive_core.js"></script>
+<script src="./v40_defensive_patch.js"></script>
+<script>
+(function(){
+  if (!window.V40DefensiveCore || !window.__V40_DEFENSIVE_PATCH_ACTIVE__) {
+    document.body.innerHTML = '<main style="max-width:680px;margin:40px auto;padding:24px;font-family:system-ui"><h1>방어형 핵심 로직을 불러오지 못했습니다.</h1><p>v40_defensive_core.js와 v40_defensive_patch.js가 같은 폴더에 있는지 확인한 뒤 새로고침하세요.</p></main>';
+    throw new Error('SOXL V4 defensive core/patch load failure');
   }
 })();
 </script>

@@ -1,7 +1,7 @@
 {
-  "name": "무한매수법 4.0 SOXL 계산기",
-  "short_name": "무매법 4.0",
-  "description": "SOXL 원문 V4.0 표준 계산기 - 22% 별지점, 22% 전량목표, 쿼터 1/3, Claude 리버스",
+  "name": "SOXL V4 방어형 계산기",
+  "short_name": "SOXL V4 방어형",
+  "description": "SOXL V4 방어형 계산기 - 22/22/Q1/3, 급락 익일 0.25T LOC, MA200 85% 기준 25/5 리버스 매수, 매도차수별 고정금 버킷",
   "lang": "ko-KR",
   "start_url": "./index.html",
   "scope": "./",

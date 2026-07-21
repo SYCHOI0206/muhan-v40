@@ -1,0 +1,12 @@
+{
+  "ticker": "SOXL",
+  "date": "2026-07-17",
+  "open": 124.73,
+  "high": 144.4,
+  "low": 116.47,
+  "close": 135.47,
+  "volume": 105249900,
+  "source": "Seed from uploaded SOXL history",
+  "updated_at": "2026-07-20T00:00:00Z",
+  "schema_version": 2
+}
